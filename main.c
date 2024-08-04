@@ -16,13 +16,6 @@ int main()
     //contador de vivos
     int v_cont= 0;
 
-
-    //struct que definira a celula
-    struct Cell
-        {
-            bool state;
-            int sizex,sizey,posix,posiy;
-        };
     //gerar endereço para todos os quadrados
     for (int i = 0;i<1200;i++)
     {
