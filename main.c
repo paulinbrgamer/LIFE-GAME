@@ -33,7 +33,7 @@ int main()
   
     //iniciar janela
     InitWindow(800,600,"LIFE GAME");
-    SetTargetFPS(12);
+    SetTargetFPS(9);
     //definir fps para 10
     while (WindowShouldClose() == false)
     {
